@@ -8,6 +8,7 @@ public class Nombres {
     {
         JOptionPane.showMessageDialog(null, "Marcos");
         JOptionPane.showMessageDialog(null, "Julio");
+        JOptionPane.showMessageDialog(null, "Prueba");
     }
     
 }
