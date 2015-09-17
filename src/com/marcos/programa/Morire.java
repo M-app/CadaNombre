@@ -4,6 +4,8 @@
  */
 package com.marcos.programa;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author alumno
@@ -36,7 +38,7 @@ public class Morire extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jLabel1.setFont(new java.awt.Font("Segoe UI Symbol", 0, 18)); // NOI18N
-        jLabel1.setText("Ingresa un número del 1 al 10");
+        jLabel1.setText("Ingresa un número del 1 al 5");
 
         jLabel2.setFont(new java.awt.Font("Tekton Pro", 0, 18)); // NOI18N
         jLabel2.setText("Te moriras de: ");
@@ -107,23 +109,28 @@ public class Morire extends javax.swing.JFrame {
             case 1: 
             {
                 lblMorir.setText("Cáncer");
-            }
+            }break;
             case 2: 
             {
                 lblMorir.setText("Atropellado");
-            }
+            }break;
             case 3: 
             {
                 lblMorir.setText("Chikunguya");
-            }
+            }break;
             case 4: 
             {
-                lblMorir.setText("");
-            }
+                lblMorir.setText("Radiación");
+            }break;
             case 5: 
             {
-                lblMorir.setText("Cáncer");
+                lblMorir.setText("Guerra Zombie");
+            }break;
+            default:
+            {
+                JOptionPane.showMessageDialog(null, "Número ingresado no válido solo debe ser de 1 a 5");                
             }
+            
         }
     }//GEN-LAST:event_btnAveriguaActionPerformed
 
