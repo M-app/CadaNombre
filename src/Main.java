@@ -18,6 +18,7 @@ public class Main {
     public static void main(String[] args) {
         
         JOptionPane.showMessageDialog(null, "Hola vacas!!!...");
+        JOptionPane.showMessageDialog(null, "Lel");
         // TODO code application logic here
     }
 }
