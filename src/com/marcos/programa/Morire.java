@@ -45,7 +45,6 @@ public class Morire extends javax.swing.JFrame {
 
         lblMorir.setFont(new java.awt.Font("Viner Hand ITC", 0, 36)); // NOI18N
         lblMorir.setForeground(new java.awt.Color(255, 0, 0));
-        lblMorir.setText("Cáncer");
 
         btnAverigua.setText("Averigua");
         btnAverigua.addActionListener(new java.awt.event.ActionListener() {
@@ -97,7 +96,7 @@ public class Morire extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(lblMorir))
-                .addContainerGap(70, Short.MAX_VALUE))
+                .addContainerGap(97, Short.MAX_VALUE))
         );
 
         pack();

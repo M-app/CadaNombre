@@ -67,7 +67,7 @@
                   <Component id="jLabel2" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
                   <Component id="lblMorir" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace pref="70" max="32767" attributes="0"/>
+              <EmptySpace pref="97" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -99,7 +99,6 @@
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="0" red="ff" type="rgb"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="C&#xe1;ncer"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="btnAverigua">
