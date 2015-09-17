@@ -11,6 +11,7 @@ public class Nombres {
         JOptionPane.showMessageDialog(null, "Cristopher");
         JOptionPane.showMessageDialog(null, "Oscar");
         JOptionPane.showMessageDialog(null, "Elvin");
+        JOptionPane.showMessageDialog(null, "Jose");
         
     }
     
